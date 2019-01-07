@@ -37,10 +37,10 @@ module.exports = {
     description: config.siteDescription,
     siteUrl: config.siteUrl,
     algolia: {
-      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
+      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "EQDGGDY4US",
       searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
         ? process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        : "",
+        : "76e24f2bec045292932f4a7dcada12a3",
       indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : ""
     },
     facebook: {
